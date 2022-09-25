@@ -1,4 +1,4 @@
-const logotext = "OS";
+const logotext = "🧩";
 const meta = {
     title: "Olubiyi Oluwaseun",
     description: "Olubiyi's portfolio.",
@@ -9,9 +9,9 @@ const introdata = {
     animated: {
         first: "Frontend Developer",
         second: "UI/UX Designer",
-        third: "& sprinkle of Backend",
+        third: "Javascript Dev",
     },
-    description: "ye'llo world, i'm seun a computer science major writting and pushing code from the metavers. ",
+    description: "ye'llo world, i'm seun a computer science major writting and pushing code from the metavers.  ",
     your_img_url: ("../.."),
 };
 
@@ -97,7 +97,7 @@ const services = [{
     },
     
 ];
-
+// update img with the right image!
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
@@ -176,7 +176,7 @@ const contactConfig = {
     YOUR_TEMPLATE_ID: "template_cr6koem",
     YOUR_USER_ID: "user_id",
 };
-
+// put social links !
 const socialprofils = {
     github: "https://github.com",
     linkedin: "https://linkedin.com",

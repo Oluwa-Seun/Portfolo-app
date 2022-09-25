@@ -1,5 +1,4 @@
-{
-    "homepage": "http://ubaimutl.github.io/react-portfolio",
+{   "homepage": "http://oluwa-seun.github.io/react-portfolio",
     "name": "react-portfolio",
     "version": "0.1.0",
     "private": true,
@@ -25,7 +24,7 @@
     },
     "scripts": {
         "start": "react-scripts start",
-        "build": "react-scripts build",
+        "build": "CI='' react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "predeploy": "yarn build && cp build/index.html build/404.html",
