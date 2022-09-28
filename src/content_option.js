@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "abit about my self",
-    aboutme:"Over the past 02 years, i've built products for companies and individuals around africa ranging from marketing website to complex solutions and enterprise apps with focus on fast, elegant and accessible user experience.",
+    aboutme:"Over the past 02 years, i've built products for companies and individuals around africa ranging from a landingpage website to complex solutions and enterprise apps with focus on fast, elegant and accessible user experience.",
     aboutme2:"Curently, i work at spectrangle as a Junior Developer crafting thoughtful and inclusive experience that adher to all web standards.",
     aboutme3:"Before now, interned at colab where i worked on coverting Figma UIs to interactive codes for orgs and individuals. Prior to colab, i was building product for individuals around the world on fiver and upwork as a freelance developer."
 }
@@ -172,7 +172,7 @@ const contactConfig = {
     // incase your memory preceeds you use next line 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     // juju was here..
-    YOUR_SERVICE_ID: "gmail",
+    YOUR_SERVICE_ID: "service_v49pu4q",
     YOUR_TEMPLATE_ID: "template_cr6koem",
     YOUR_USER_ID: "user_id",
 };
