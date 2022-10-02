@@ -1,8 +1,5 @@
 ### description
 
-A simple Portfolio template for developer/designers built with React. 
-
-### [live preview]
 
 
 
@@ -17,7 +14,6 @@ A simple Portfolio template for developer/designers built with React.
 
 ### Setup
 
-Get the code.
 
  
  
@@ -25,7 +21,7 @@ Install required dependencies
 
 <pre>yarn install</pre>
 
-modify pages content in  `src/content_option.js`.
+
 
 statrt the server
 
@@ -34,6 +30,3 @@ statrt the server
 ### Thanks
 If you like this portfolio template don't forget give it a ⭐ 
  
-
-
-# REACT-PORTFOLIO-TEST
