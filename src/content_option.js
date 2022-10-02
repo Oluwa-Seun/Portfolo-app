@@ -100,71 +100,47 @@ const services = [{
 // update img with the right image!
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "Lazy Boy website is an upcoming fashion line looking to make it's mark with it's iconic design and layed back art.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "Kryptofer is a web3 based app built to handel transaction on the ethireum market with a secure connections metamask.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "OTech is an inovative company currently building amzing software products for companies and individual around the world. ",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "Food delivery website for Rushfood blazing fast delivery and service at your door steep with a single click. ",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "Built a face for the fitbit smartwatch that works across all devices.",
         link: "#",
     },
 
     {
         img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "Nastroid a sci-fi website built on Nasa Api fetching real time data from nasa.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "T",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "oluwaseunolubiyione@gmail.com",
     YOUR_FONE: "+2348154926454",
-    description: "Do you need help building the next facebook or flutterwave ",
+    description: "Do you need me help building the next big thing? shoot",
     // creat an emailjs.com account when you are ready for production
     // connecting the backend of the email to the frontend of this application 
     // to recive email from users
