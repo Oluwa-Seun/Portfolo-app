@@ -30,10 +30,29 @@
     font-family: Marcellus;
     color: var(--text-color-2);
     line-height: 2;
-    height: 50px;
+    height: 55px;
     font-weight: bold;
     z-index: 1000;
+    
 }
+
+.nav_acc {
+    padding: 5px 15px;
+    margin: 0;
+    border: unset;
+   /* background: var(--primary-color);*/
+    font-size: 1.95rem;
+    font-family: Marcellus;
+    color: var(--text-color-2);
+    line-height: 2;
+    height: 60px;
+    font-weight: bold;
+    z-index: 1000;
+    
+}
+
+
+
 
 .nav_ac:hover {
     color: var(--text-color-2);
@@ -45,12 +64,15 @@
 .br-left {
     position: fixed;
     z-index: 999999;
-    background: var(--primary-color);
+    
+    background: var(--secondary-color);
+   /* background: var(--primary-color);*/
 }
 
 .br-top {
+   
     top: 0;
-    height: 10px;
+    height: 5px;
     left: 0;
     width: 100%;
 }
@@ -58,19 +80,19 @@
 .br-bottom {
     bottom: 0;
     left: 0;
-    height: 10px;
+    height: 5px;
     width: 100%;
 }
 
 .br-right {
-    width: 10px;
+    width: 5px;
     right: 0;
     top: 0;
     height: 100%;
 }
 
 .br-left {
-    width: 10px;
+    width: 5px;
     left: 0;
     top: 0;
     height: 100%;
@@ -198,4 +220,44 @@
 .menu_footer a {
     color: var(--text-color-2);
     margin-right: 10px;
+}
+
+/* === Particles animetiona section ==== */
+.home2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    justify-content: center;
+    width: 100%;
+}
+.home2  svg {  
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+.BgAnimation__svg{
+    height: 100vh !important;
+    margin-left: 15% !important;
+}
+
+/* === Particles animetiona section ==== */
+.home2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    justify-content: center;
+    width: 100%;
+}
+.home2  svg {  
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+.BgAnimation__svg{
+    height: 100vh !important;
+    margin-left: 15% !important;
 }

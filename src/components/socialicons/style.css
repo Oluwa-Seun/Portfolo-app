@@ -56,7 +56,7 @@
     .stick_follow_icon {
         width: unset;
         height: unset;
-        position: static;
+        position: sticky;
         margin-top: unset;
         display: flex;
         flex-direction: row-reverse;

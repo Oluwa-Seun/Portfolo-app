@@ -8,7 +8,7 @@ import { About } from "../pages/about";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
-const AnimatedSwitch = withRouter(({ location }) => (
+const AnimatedSwitch = withRouter(({ location  }) => (
   <TransitionGroup>
     <CSSTransition
       key={location.key}
@@ -33,6 +33,7 @@ const AnimatedSwitch = withRouter(({ location }) => (
 function AppRoutes() {
   return (
     <div className="s_c">
+      
       <AnimatedSwitch />
       <Socialicons />
     </div>

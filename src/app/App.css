@@ -29,3 +29,23 @@
     transform: translateY(-130%);
     transition: all 400ms ease-out;
 }
+
+/* === Particles animetiona section ==== */
+.home2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    justify-content: center;
+    width: 100%;
+}
+.home2  svg {  
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+.BgAnimation__svg{
+    height: 100vh !important;
+    margin-left: 15% !important;
+}

@@ -36,6 +36,8 @@ export const ContactUs = () => {
         contactConfig.YOUR_USER_ID
       )
       .then(
+        //TODO Fix success message display, 
+        //same as error message
         (result) => {
           console.log(result.text);
           setFormdata({
@@ -74,24 +76,12 @@ export const ContactUs = () => {
         </Helmet>
         <Row className="mb-5 mt-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">Contact Me</h1>
+            <h1 className="display-9 mb-9">Lets Build!.</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="12">
-            <Alert
-              //show={formData.show}
-              variant={formData.variant}
-              className={`rounded-0 co_alert ${
-                formData.show ? "d-block" : "d-none"
-              }`}
-              onClose={() => setFormdata({ show: false })}
-              dismissible
-            >
-              <p className="my-0">{formData.alertmessage}</p>
-            </Alert>
-          </Col>
+
           <Col lg="5" className="mb-5">
             <h3 className="color_sec py-4">Get in touch</h3>
             <address>
@@ -139,17 +129,30 @@ export const ContactUs = () => {
                   />
                 </Col>
               </Row>
+              <Col lg="12">
+            <Alert
+              //Test ! 
+              variant={formData.variant}
+              className={`rounded-0 co_alert ${
+                formData.show ? "d-block" : "d-none"
+              }`}
+              onClose={() => setFormdata({ show: false })}
+              dismissible
+            >
+              <p className="my-0">{formData.alertmessage}</p>
+            </Alert>
+          </Col>
               <textarea
                 className="form-control rounded-0"
                 id="message"
                 name="message"
-                placeholder="If you are seeing this our team is currently working on the contact form, thank you."
+                placeholder="Type your message here............"
                 rows="5"
                 value={formData.message}
                 onChange={handleChange}
                 required
               ></textarea>
-              <br />
+             <br />
               <Row>
                 <Col lg="12" className="form-group">
                   <button className="btn ac_btn" type="submit">

@@ -6,7 +6,10 @@ section {
     -o-transition: all .5s ease-in;
     transition: all .5s ease-in;
 }
-
+.im {
+    height: 20vh;
+    width: 13vh;
+}
 .who_am_I {
     font-family: Cinzel;
 }
@@ -46,6 +49,8 @@ section {
 
 .intro_sec .text,
 .intro_sec .h_bg-image {
+    /* incase you forget */
+    top: 25px;
     width: 50%;
 }
 
@@ -92,9 +97,11 @@ section {
 }
 
 .intro_sec .h_bg-image {
+    height: auto;
+    min-width:50vw;
     background-size: cover;
     background-position: center;
-    min-height: 700px;
+    min-height: 90%;
     position: relative;
 }
 
@@ -184,7 +191,7 @@ section {
     height: 220px;
     border-radius: 100%;
     /* mix-blend-mode: multiply; */
-    background-color: #2f514e;
+    background-color: #ebf0f0;
     z-index: 9999999999;
     display: flex;
     align-items: center;
@@ -194,9 +201,9 @@ section {
 
 @media (max-width:991.98px) {
     .intro_sec .h_bg-image {
-        height: 600px;
-        min-height: 75vh;
-        margin-bottom: 30px;
+        height: auto;
+    /* min-height: 75vh;*/
+        margin-bottom: 15px;
     }
     .intro_sec .h_bg-image .block {
         top: unset;
@@ -229,6 +236,6 @@ section {
     color: var(--text-color)
 }
 
-.intro_sec .h_bg-image {
-    filter: saturate(0.5);
-}
+/*.intro_sec .h_bg-image {
+   filter: saturate(0.5);
+}*/
